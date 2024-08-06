@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- подключение AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- подключение AOS -->
+
+        <!-- подключение иконок для формы регистрации -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- подключение иконок для формы регистрации -->
+
+        <!-- подключение стилей -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- подключение стилей -->
+
+        <!-- заголовок документа -->
+        <title>Обучающее пособие</title>
+         <!-- заголовок документа -->
+
+        <!-- шрифты -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+        <!-- шрифты -->
+        
+        
+    </head>
+    <body>
+        <div id="one"></div>
+        <header class="top-bar">
+<div class="grid-container full">
+    <div class="grid-x align-middle">
+        <div class="cell small-11">
+            <a class="logo" href="#one">
+                    <span>студия МЕБЕЛИ Дениса</span>
+                    <!--<i class="fas fa-weight-hanging"></i>-->
+            </a>
+        </div>
+        <div class="cell nav-menu"><button class="hamburger"><span></span><span></span><span></span></button>
+            <nav class="navigation">
+
+                <div class="ul">
+                    <div class="li">
+                        <a href="#orientation" class="close0">
+                            <div class="li__img">
+                                <img src="./img/icon/free.png" alt="">
+                            </div>
+                            <span>Как делать правильно замер</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#why" class="close1">
+                            <div class="li__img">
+                                <img src="./img/icon/free1.png" alt="">
+                            </div>
+                            <span>Материалы</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#advantages" class="close2">
+                            <div class="li__img">
+                                <img src="./img/icon/free2.png" alt="">
+                            </div>
+                            <span>Фурнитура</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#scheme" class="close3">
+                            <div class="li__img">
+                                <img src="./img/icon/free3.png" alt="">
+                            </div>
+                            <span>Основы эргономики</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#prices" class="close4">
+                            <div class="li__img">
+                                <img src="./img/icon/free4.png" alt="">
+                            </div>
+                            <span>Отрисовка мебели в БиПланере</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#footer" class="close5">
+                            <div class="li__img">
+                                <img src="./img/icon/free5.png" alt="">
+                            </div>
+                            <span>Скрипт продажи</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#footer" class="close5">
+                            <div class="li__img">
+                                <img src="./img/icon/free5.png" alt="">
+                            </div>
+                            <span>Работа с возражениями</span>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a href="#footer" class="close5">
+                            <div class="li__img">
+                                <img src="./img/icon/free5.png" alt="">
+                            </div>
+                            <span>Чем мы отличаемся от конкурентов</span>
+                        </a>
+                    </div>
+            
+                </div>
+
+                <!--<div class="navigation-content">
+
+                    <div class="container">
+                        <div class="form signup">
+                            <h2>Создать аккаунт</h2>
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <i class="fa-regular fa-user"></i>
+                                <span>имя пользователя</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span>адрес электронной почты</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" required="required">
+                                <i class="fa-solid fa-lock"></i>
+                                <span>создайте пароль</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" required="required">
+                                <i class="fa-solid fa-lock"></i>
+                                <span>подтвердите пароль</span>
+                            </div>
+                            <div class="navigation-checkbox">
+                                <input checked type="checkbox" name="cbox" required/>
+                                <span>Я согласен на обработку персональных данных и с
+                                <a href="#">политикой конфиденциальности</a></span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" value="Создать">
+                            </div>
+                            <p>Есть аккаунт? <a href="#" class="login">Авторизоваться</a></p>
+                        </div>
+                        <div class="form signin">
+                            <h2>Войти в аккаунт</h2>
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <i class="fa-regular fa-user"></i>
+                                <span>имя пользователя</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" required="required">
+                                <i class="fa-solid fa-lock"></i>
+                                <span>пароль</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" value="Войти">
+                            </div>
+                            <p>Нет аккаунта? <a href="#" class="create">Создать аккаунт</a></p>
+                        </div>
+                    </div>
+                    
+                </div>-->
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+   
+
+
+
+        </header>
+        <section class="bg">
+<!---->
+<div class="main-oneWrapper">
+    <div class="main-one-block">
+        <video src="./video/123.mp4" autoplay loop muted></video>
+        <h1>Учебное пособие<br><span>Для замерщиков</span></h1>
+    </div>
+</div>
+
+    <span class="SkewedOne"></span>
+    <span class="SkewedTwo"></span>
+        </section>
+        <div id="orientation"></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-orientationWrapper">
+                <div class="main-orientation-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="80" data-aos-duration="1000">Как делать <span class="main-orientation-block__h2">замер</span> правильно и всё учесть</h2>
+                    
+                    <!-- <div class="orientation">
+                        <div class="orientation__h2 h2block1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span class="orientation-spanblock1">Частные</span>&ensp;лица</div>
+                        </div>
+                        <div class="orientation__block1">
+            
+                            <div class="orientation__img block1" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                                <img src="./img/icon/family.png" alt="">
+                            </div>
+            
+                            <div class="orientation__text block1-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                
+                                <ul class="orientation-border">
+                                    <li>Замер помогает понять точную площадь квартиры. Проверить информацию от застройщика.</li>
+                                    <li>Клиент может сделать замер для создания дизайн-проекта, он пока не выбрал студию дизайна, и может сделать расстановку мебели самостоятельно.</li>
+                                    <li>План замера оформляем на листе А4 или в формате pdf, его можно открыть на любом устройстве</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="orientation-1">&ensp;</div>
+                    <div class="orientation-1">&ensp;</div>
+
+                    <!-- <div class="orientation">
+                        <div class="orientation__h2 h2block2" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span class="orientation-spanblock2">Дизайнеры</span> интерьера</div>
+                        </div>
+                        <div class="orientation__block2">
+            
+                            <div class="orientation__img block2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                                <img src="./img/icon/designers.png" alt="">
+                            </div>
+            
+                            <div class="orientation__text block2-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                
+                                <ul class="orientation-border">
+                                    <li>Дизайнер экономит свое время, если пользуется услугами обмерной компании.</li>
+                                    <li>Вам не обязательно присутствовать на объекте. Мы договариваемся с вашими клиентами о дате замера и делаем полную фотофиксацию.</li>
+                                    <li>Видеообзор по объекту поможет визуально представить помещение и увидеть все коммуникации.</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                    <!-- <div class="orientation">
+                        <div class="orientation__h2 h2block3" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span class="orientation-spanblock3">Мебельные</span> компании</div>
+                        </div>
+                        <div class="orientation__block3">
+            
+                            <div class="orientation__img block3" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                                <img src="./img/icon/factory-production.png" alt="">
+                            </div>
+            
+                            <div class="orientation__text block3-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+            
+                                <ul class="orientation-border">
+                                    <li>Мы отвечаем за качество замеров, наши специалисты имеют опыт в изготовлении корпусной мебели.</li>
+                                    <li>Нам доверяют компании по изготовлению индивидуальных изделий, производства реечных перегородок, стеновых панелей и др.</li>
+                                    <li>У вас всегда есть возможность записаться на замер за сутки до нужной даты.</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                    </div> -->
+
+
+                    <div class="orientation-1">&ensp;</div>
+                    <div class="orientation-1">&ensp;</div>
+
+                    <!-- <div class="orientation orientation-last">
+                        <div class="orientation__h2 h2block4" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span class="orientation-spanblock4">Строительные</span> компании</div>
+                        </div>
+                        <div class="orientation__block4">
+            
+                            <div class="orientation__img block4" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                                <img src="./img/icon/construction.png" alt="">
+                            </div>
+            
+                            <div class="orientation__text  block4-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                
+                                <ul class="orientation-border">
+                                    <li>Чтобы ускорить процесс, наш замерщик выезжает на объект вместе с вашим менеджером.</li>
+                                    <li>Пока менеджер и клиент общаются и обсуждают детали ремонта, наш специалист готовит замерный лист.</li>
+                                    <li>Получается, вы продали свои услуги, а мы спокойно сделали точный замер квартиры для вашей компании.</li>
+                                </ul>
+            
+                            </div>
+                        </div>
+                    </div> -->
+                
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </section>
+        <div id="why"></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-whyWrapper">
+                <div class="main-why-block">
+            
+                    <h2 data-aos="fade-right" data-aos-offset="80" data-aos-duration="1000"><span class="main-why-block__h2">МАТЕРИАЛЫ</span> из чего делаем мебель</h2>
+
+                    <!-- <div class="why why__block">
+            
+                        <div class="why__img" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <img src="./img/1.jpeg" alt="">
+                        </div> 
+            
+                        <div class="why__text" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+
+                            <ul class="why-border">
+                                <li>Обмерные работы – это точное измерение всех конструктивных частей и узлов строения, определение их геометрии, пропорций, размеров.</li>
+                                <li>Характеристики каждого объекта уникальны, даже если он возводился по типовому проекту.</li>
+                                <li>Чтобы определить точные геометрические формы, размеры  помещения, их конструкций и узлов, необходимо провести обмерные работы.</li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+            
+                    <div class="why__text2 why__block2">
+                        <div class="why__text2-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span>Для - </span> определения<br> точных размеров, помещения после строительных работ.</div>
+                        </div>
+                        <div class="why__text2-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span>Для - </span> разработки<br> дизайн-проекта либо установки в помещение заказных элементов мебели.</div>
+                        </div>
+                        <div class="why__text2-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span>Для - </span> подготовки<br> смет и расчетов на предстоящие строительные работы.</div>
+                        </div>
+                        <div class="why__text2-1" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div><span>Для - </span> сравнения<br> фактических размеров помещения с заявленными в плане БТИ.</div>
+                        </div>
+                    </div> -->
+            
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+        </section>
+        <div id="advantages"></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-advantagesWrapper">
+                <div class="main-advantages-block">
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">Какую используем в нашей мебели <span class="main-advantages-block__h2">фурнитуру</span></h2>
+                    <!-- <div class="advantages advantages__block1">
+            
+                        <div class="advantages__img shadowClock" data-aos="fade-right" data-aos-offset="150" data-aos-duration="800">
+                            <img src="./img/icon/clock.png" alt="">
+                        </div>
+            
+                        <div class="advantages__text" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800">Выйдем на объект в течении 12 часов после заявки</div>
+            
+                    </div>
+            
+                    <div class="advantages advantages__block2">
+            
+                        <div class="advantages__img shadowMap"  data-aos="fade-left" data-aos-offset="150" data-aos-duration="800">
+                            <img src="./img/icon/map.png" alt="">
+                        </div>
+            
+                        <div class="advantages__text" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800">Выполним замер в Москве и Московской области</div>
+                        
+                    </div>
+            
+                    <div class="advantages advantages__block3">
+            
+                        <div class="advantages__img shadowDesign" data-aos="fade-right" data-aos-offset="150" data-aos-duration="800">
+                            <img src="./img/icon/design.png" alt="">
+                        </div>
+            
+                        <div class="advantages__text" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800">Сделаем и вышлем чертежи в короткий срок</div>
+                        
+                    </div>
+            
+                    <div class="advantages advantages__block4">
+            
+                        <div class="advantages__img shadowFoto" data-aos="fade-left" data-aos-offset="150" data-aos-duration="800">
+                            <img src="./img/icon/foto.png" alt="">
+                        </div>
+            
+                        <div class="advantages__text advantages-last__text" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800">Предоставим вам видео и фотоотчет замера</div>
+                        
+                    </div> -->
+                    
+                </div>
+            </div>
+            
+
+
+        </div>
+    </div>
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </section>
+        <div id="scheme"></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+
+            <div class="main-ergonomicsWrapper">
+                <div class="main-ergonomics-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">основы <span class="main-scheme-block__h2">эргономики</span> и как не нужно делать</h2>
+
+                    <!-- <div class="scheme">
+            
+                        <div class="scheme-number number__1" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>01</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span1">Оставляете</span> заявку</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>C вами свяжется наш специалист,рассчитает стоимость обмера и назначит вам замерщика.</div>
+                            </div>
+                        </div>
+            
+                    </div> -->
+            
+                    <div class="scheme-1">&ensp;</div>
+                    <div class="scheme-1">&ensp;</div>
+            
+                    <!-- <div class="scheme">
+            
+                        <div class="scheme-number number__2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>02</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span2">Делаем</span> замеры</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Вы или ваш представитель встречает замерщика, чтобы обеспечить доступ в помещение.</div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+             
+                    <!--<div class="scheme">
+            
+                        <div class="scheme-number number__3" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>03</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span3">Готовим</span> чертежи</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Чертежники делают техническую документацию. Затем мы отправляем вам видеоотчет с подтверждение выполеннной работы.</div>
+                            </div>
+                        </div>
+            
+                    </div> -->
+            
+                    <div class="scheme-1">&ensp;</div>
+                    <div class="scheme-1">&ensp;</div>
+            
+                    <!-- <div class="scheme scheme-last">
+            
+                        <div class="scheme-number number__4" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>04</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span4">Оплата</span></div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Просмотрев видеоотчет вы убедитесь что работа по вашему проекту исполена,затем производите оплату и получаете на почту исходники.</div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                    
+                </div>
+                
+            </div>
+            
+            
+                    
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+        </section>
+        <div id=""></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+
+            <div class="main-schemeWrapper">
+                <div class="main-scheme-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">3D <span class="main-scheme-block__h2">Отрисовка </span> мебели в программе бипланер </h2>
+
+                    <!-- <div class="scheme">
+            
+                        <div class="scheme-number number__1" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>01</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span1">Оставляете</span> заявку</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>C вами свяжется наш специалист,рассчитает стоимость обмера и назначит вам замерщика.</div>
+                            </div>
+                        </div>
+            
+                    </div> -->
+            
+                    <div class="scheme-1">&ensp;</div>
+                    <div class="scheme-1">&ensp;</div>
+            
+                    <!-- <div class="scheme">
+            
+                        <div class="scheme-number number__2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>02</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span2">Делаем</span> замеры</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Вы или ваш представитель встречает замерщика, чтобы обеспечить доступ в помещение.</div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+             
+                    <!--<div class="scheme">
+            
+                        <div class="scheme-number number__3" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>03</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span3">Готовим</span> чертежи</div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Чертежники делают техническую документацию. Затем мы отправляем вам видеоотчет с подтверждение выполеннной работы.</div>
+                            </div>
+                        </div>
+            
+                    </div> -->
+            
+                    <div class="scheme-1">&ensp;</div>
+                    <div class="scheme-1">&ensp;</div>
+            
+                    <!-- <div class="scheme scheme-last">
+            
+                        <div class="scheme-number number__4" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                            <div><span>04</span></div>
+                        </div>
+            
+                        <div class="scheme__block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                            <div class="scheme__h2">
+                                <div><span class="schemeH2__span4">Оплата</span></div>
+                            </div>
+                            <div class="scheme-text">
+                                <div>Просмотрев видеоотчет вы убедитесь что работа по вашему проекту исполена,затем производите оплату и получаете на почту исходники.</div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                    
+                </div>
+                
+            </div>
+            
+            
+                    
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+        </section>
+        <div id="prices"></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-salesWrapper">
+                <div class="main-salesBig-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">продаван <span class="main-pricesBig-block__h2">Скрипт</span> этапы продажи мебели</h2>
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickOne">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img1">
+                                        <img src="./img/one.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-1">С</span>тандарт
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер одного помещения для дизайн-проекта кухни, шкафа или другой корпустной мебели.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenOne">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseOne">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickTwo">
+            
+                                
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img2">
+                                        <img src="./img/two.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-2">С</span>тандарт<span class="cardFront__h2-2">+</span>
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер нескольких помещений. Полный обмер квартиры, дома либо офиса.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenTwo">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseTwo">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickThree">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img3">
+                                        <img src="./img/three.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-3">Б</span>изнес
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Вам некогода заниматься замерами и вы хотите делегировать их.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenThree">
+                                        <span>Подробнее</span>
+                                    </div>
+            
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseThree">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </section>
+        <div id=""></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-objectionsWrapper">
+                <div class="main-objectionsBig-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">какие бывают <span class="main-pricesBig-block__h2">Возражения</span> и их отработка</h2>
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickOne">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img1">
+                                        <img src="./img/one.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-1">С</span>тандарт
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер одного помещения для дизайн-проекта кухни, шкафа или другой корпустной мебели.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenOne">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseOne">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickTwo">
+            
+                                
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img2">
+                                        <img src="./img/two.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-2">С</span>тандарт<span class="cardFront__h2-2">+</span>
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер нескольких помещений. Полный обмер квартиры, дома либо офиса.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenTwo">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseTwo">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickThree">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img3">
+                                        <img src="./img/three.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-3">Б</span>изнес
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Вам некогода заниматься замерами и вы хотите делегировать их.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenThree">
+                                        <span>Подробнее</span>
+                                    </div>
+            
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseThree">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </section>
+        <div id=""></div>
+        <section>
+<div class="section-heading">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="main-competitorsWrapper">
+                <div class="main-competitorsBig-block">
+
+                    <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">чем мы <span class="main-pricesBig-block__h2">отличаемся</span> от конкурентов</h2>
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickOne">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img1">
+                                        <img src="./img/one.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-1">С</span>тандарт
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер одного помещения для дизайн-проекта кухни, шкафа или другой корпустной мебели.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenOne">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseOne">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickTwo">
+            
+                                
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img2">
+                                        <img src="./img/two.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-2">С</span>тандарт<span class="cardFront__h2-2">+</span>
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Замер нескольких помещений. Полный обмер квартиры, дома либо офиса.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenTwo">
+                                        <span>Подробнее</span>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseTwo">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="main-prices-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                        <div class="prices-card">
+                            <div class="card-inner cardOnClickThree">
+            
+                                <div class="card-front">
+                                    <div class="cardFront-img cardFront__img3">
+                                        <img src="./img/three.png" alt="">
+                                    </div>
+                                    <div class="cardFront-h2">
+                                        <span class="cardFront__h2-3">Б</span>изнес
+                                    </div>
+                                    <div class="cardFront-text">
+                                        Вам некогода заниматься замерами и вы хотите делегировать их.
+                                    </div>
+                                    <div class="prices-ButtonFront OpenThree">
+                                        <span>Подробнее</span>
+                                    </div>
+            
+                                </div>
+            
+                                <div class="card-back">
+                                    <div class="cardBack-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque fuga illo quam dolores cumque et facilis in labore minus repellat cum, distinctio quia saepe? Nemo quibusdam est dolor maiores!
+                                    </div>
+                                    <div class="prices-ButtonBack CloseThree">
+                                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </section>
+        <div id="footer"></div>
+        <footer>
+<!--<div class="grid-container">
+    <div class="grid-x">
+        <div class="cell">-->
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="cell">
+
+            <div class="footer-wrapper">
+                <h2 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000"><span class="footer-block__h2">footer</span>  ...</h2>
+                <div class="footer-wrapper-block">
+
+                    <!--<div class="footer-block footer-block1">
+                        
+                        <div class="wrapper-contactForm">
+
+                            <div class="contact-block contact-tel" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                <div class="contact-block__img"><img src="./img/icon/phone-call.png"></div>
+                                <h3 class="contact-block__h3">Позвоните нам</h3>
+                                <i class="fa-solid fa-mobile"></i>
+                                <span>+7(987)654 32 10</span>
+                            </div>
+
+                            <div class="contact-block contact-mail" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                <div class="contact-block__img"><img src="./img/icon/email.png"></div>
+                                <h3 class="contact-block__h3">Напишите нам</h3>
+                                <i class="fa-solid fa-at"></i>
+                                <span>mail@narod.ru</span>
+                            </div>
+
+                            <div class="contact-block contact-telegram" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                <div class="contact-block__img"><img src="./img/icon/telegram.png"></div>
+                                <h3 class="contact-block__h3">Напишите нам</h3>
+                                <i class="fa-brands fa-telegram"></i>
+                                <span>telegram</span>
+                            </div>
+                            
+                            <div class="contact-block contact-mailb2b" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+                                <div class="contact-block__img"><img src="./img/icon/emailb2b.png"></div>
+                                <h3 class="contact-block__h3">Для бизнеса</h3>
+                                <i class="fa-sharp fa-solid fa-briefcase"></i>
+                                <span>b2bmail@narod.ru</span>
+                            </div>
+                            
+                        </div>
+
+
+                    </div>-->
+
+                    <!--<div class="footer-block footer-block2">-->
+                        <!--<h3 class="contactForm-form__h2">Оставьте контактные данные, мы перезвоним и обсудим ваши задачи</h3>-->
+                        <!--<div class="wrapper-contactForm2">
+                            <form id="contact" action="../mail.php" method="post">
+                                
+                                <div id="note"></div>
+                                <div class="contactForm-container">
+                                    <div class="contactForm-form contactForm-signup">
+                                        <div class="contactForm-inputBox">
+                                            <input type="text" name="name" id="author" required>
+                                            <i class="fa-regular fa-user"></i>
+                                            <span><label for="author">Ваше имя</label></span>
+                                        </div>-->
+                                        <!--<div class="contactForm-inputBox">
+                                            <input type="email" name="email" id="email" required>
+                                            <i class="fa-solid fa-at"></i>
+                                            <span><label for="email">Электронная почта </label></span>
+                                        </div>-->
+                                        <!--<div class="contactForm-inputBox">
+                                            <input type="tel" name="tel" id="url" required>
+                                            <i class="fa-solid fa-mobile"></i>
+                                            <span><label for="url">+7(___)___-__-__</label></span>
+                                        </div>
+                                        <div class="contactForm-inputBox">
+                                            <textarea name="message" cols="1" rows="10" id="comment" required></textarea>
+                                            <i class="fa-solid fa-message"></i>
+                                            <span>Адрес и доп. информация</span>
+                                        </div>
+                                        <div class="contactForm-checkbox">
+                                            <input checked type="checkbox" name="cbox" required/>
+                                            <span>Я согласен на обработку персональных данных и с
+                                            <a href="#">политикой конфиденциальности</a></span>
+                                        </div>
+                                        <div class="contactForm-inputBox">
+                                            <input type="submit" id="submit" class="go" value="Свяжитесь со мной">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>-->
+                    
+                </div> 
+                <div class="footer-footer">
+                    <div>
+                        <span>© Все права защищены</span>
+                    </div>
+                    <div>
+                        <!-- <a href="../PrivacyPolicy.html"> -->
+                            <span>Политика конфиденциальности</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        </footer>
+
+            <!-- подключение AOS --> 
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!-- подключение иконок -->  
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+            <!-- подключение jQuery -->   
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <!-- подключение файла скриптов -->
+            <script src="./js/main.js"></script>
+
+    </body>
+</html>
