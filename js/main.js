@@ -18,6 +18,8 @@ let close2 = document.querySelector('.close2');
 let close3 = document.querySelector('.close3');
 let close4 = document.querySelector('.close4');
 let close5 = document.querySelector('.close5');
+let close6 = document.querySelector('.close6');
+let close7 = document.querySelector('.close7');
 
 close0.onclick = function(){
 	navigation.classList.toggle('is-open');
@@ -40,6 +42,14 @@ close4.onclick = function(){
 	hamburger.classList.toggle('is-open');
 }
 close5.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+};
+close6.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+};
+close7.onclick = function(){
 	navigation.classList.toggle('is-open');
 	hamburger.classList.toggle('is-open');
 };
@@ -125,3 +135,4 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 });
+
