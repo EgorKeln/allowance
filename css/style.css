@@ -938,14 +938,14 @@ header {
     gap: 0px;
   }
   .ul {
-    width: 90%;
-    height: 75%;
-    gap: 45px;
+    width: 80%;
+    height: 70%;
+    gap: 20px;
     margin: -100px 0 0 0;
   }
   .li {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border: 6px solid var(--bg3);
   }
   .navigation-content {
@@ -955,13 +955,13 @@ header {
     border: 8px solid var(--bg3);*/
   }
   .li__img {
-    width: 40%;
+    width: 50%;
   }
   .li__img img {
     max-width: 100%;
   }
   .li a span {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0px 10px;
   }
 }
