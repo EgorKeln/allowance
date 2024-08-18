@@ -1480,9 +1480,10 @@ header {
   }
   .materials-block li h5 {
     margin: 50px 0 0 0;
+    font-size: 40px;
   }
   .materials-block li span.txt {
-    width: 100%;
+    width: 95%;
     font-size: 20px;
     line-height: 30px;
   }
