@@ -1446,7 +1446,7 @@ header {
 }
 
 .materials-block li span.txt {
-  text-align: center;
+  text-align: start;
   width: 95%;
   font-size: 30px;
   line-height: 35px;
