@@ -1288,8 +1288,13 @@ header {
     margin: 50px 0 0 0;
     gap: 30px;
   }
-  .main-how_to_d-block__h2 {
-    font-size: 60px;
+  .main-how_to_do-block__h2 {
+    font-size: 50px;
+  }
+  .main-how_to_do-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-materialsWrapper {
@@ -1464,7 +1469,7 @@ header {
     gap: 30px;
   }
   .main-materials-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .main-materials-block h2 {
     width: 90%;
@@ -1584,7 +1589,12 @@ header {
     gap: 30px;
   }
   .main-accessories-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .main-accessories-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-ergonomicsWrapper {
@@ -1652,7 +1662,12 @@ header {
     gap: 30px;
   }
   .main-ergonomics-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .main-ergonomics-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-renderingWrapper {
@@ -1711,7 +1726,12 @@ header {
     gap: 30px;
   }
   .main-rendering-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .main-rendering-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-salesWrapper {
@@ -1807,8 +1827,13 @@ header {
     margin: 50px 0 0 0;
     gap: 30px;
   }
-  .main-pricesBig-block__h2 {
-    font-size: 60px;
+  .main-salesBig-block__h2 {
+    font-size: 50px;
+  }
+  .main-salesBig-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-objectionsWrapper {
@@ -1908,7 +1933,12 @@ header {
     gap: 30px;
   }
   .main-objectionsBig-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .main-objectionsBig-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 .main-competitorsWrapper {
@@ -1977,7 +2007,12 @@ header {
     gap: 30px;
   }
   .main-competitorsBig-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .main-competitorsBig-block h2 {
+    width: 90%;
+    margin: 0;
+    font-size: 20px;
   }
 }
 footer {
@@ -2386,12 +2421,12 @@ footer {
   }
   .footer-wrapper h2 {
     width: 100%;
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
     margin: 60px 0 0 0;
   }
   .footer-block__h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .wrapper-contactForm {
     width: 100%;
