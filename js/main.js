@@ -14,6 +14,29 @@ hamburger.addEventListener('click', () => {
 
 let close0 = document.querySelector('.close0');
 let close1 = document.querySelector('.close1');
+let close11 = document.querySelector('.close11');
+let close12 = document.querySelector('.close12');
+let close13 = document.querySelector('.close13');
+let close14 = document.querySelector('.close14');
+let close15 = document.querySelector('.close15');
+let close16 = document.querySelector('.close16');
+let close17 = document.querySelector('.close17');
+let close18 = document.querySelector('.close18');
+let close19 = document.querySelector('.close19');
+let close110 = document.querySelector('.close110');
+let close111 = document.querySelector('.close111');
+let close112 = document.querySelector('.close112');
+let close113 = document.querySelector('.close113');
+let close114 = document.querySelector('.close114');
+let close115 = document.querySelector('.close115');
+let close116 = document.querySelector('.close116');
+let close117 = document.querySelector('.close117');
+let close118 = document.querySelector('.close118');
+let close119 = document.querySelector('.close119');
+let close120 = document.querySelector('.close120');
+let close121 = document.querySelector('.close121');
+
+
 let close2 = document.querySelector('.close2');
 let close3 = document.querySelector('.close3');
 let close4 = document.querySelector('.close4');
@@ -29,6 +52,96 @@ close1.onclick = function(){
 	navigation.classList.toggle('is-open');
 	hamburger.classList.toggle('is-open');
 }
+close11.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close12.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close13.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close14.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close15.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close16.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close17.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close18.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close19.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close110.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close111.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close112.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close113.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close114.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close115.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close116.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close117.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close118.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close119.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close120.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+close121.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
+
+
+
+
+
+
 close2.onclick = function(){
 	navigation.classList.toggle('is-open');
 	hamburger.classList.toggle('is-open');
@@ -64,3 +177,15 @@ window.addEventListener('scroll', function(){
 });
 
 
+
+$(document).ready(function() {
+    $('.block__title').click(function(event) {
+     if($('.block').hasClass('one')){
+         $('.block__title').not($(this)).removeClass('active');
+         $('.block__text').not($(this).next()).slideUp(300);
+     }
+     $(this).toggleClass('active').next().slideToggle(300);
+ });
+ 
+ });
+ 
