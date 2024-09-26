@@ -694,7 +694,7 @@ header {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 5px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.35), inset -5px -5px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgba(0, 0, 0, 0.35);
           box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.35), inset -5px -5px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgba(0, 0, 0, 0.35);
   border-radius: 20px;
@@ -704,6 +704,13 @@ header {
   padding: 0;
   color: var(--bg);
   font-size: 20px;
+}
+
+.li a.without {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
 }
 
 .li a.classh1 {
@@ -726,7 +733,13 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 85%;
+  width: 80%;
+  padding: 5px;
+}
+
+.ul a.item.floor {
+  width: 40%;
+  margin: 0 5px;
 }
 
 .li__img {
@@ -754,6 +767,39 @@ header {
 }
 
 .navigation a:hover {
+  color: #395fc9;
+}
+
+.done_up {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, rgb(245, 59, 26)), color-stop(30%, rgba(47, 208, 230, 0.71)), color-stop(70%, rgba(47, 208, 230, 0.71)), color-stop(80%, rgba(236, 8, 217, 0.71)));
+  background: linear-gradient(to right, rgb(245, 59, 26) 20%, rgba(47, 208, 230, 0.71) 30%, rgba(47, 208, 230, 0.71) 70%, rgba(236, 8, 217, 0.71) 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  -webkit-animation: done_up 5s ease-in-out infinite alternate;
+          animation: done_up 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes done_up {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes done_up {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.navigation a .done_up:hover {
   color: #395fc9;
 }
 
@@ -998,13 +1044,23 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border-radius: 20px;
+    border: 1px solid #119beb;
+    border-radius: 15px;
     margin: 5px 0;
     padding: 5px 0;
     font-size: 28px;
   }
   .ul a.item {
     width: 80%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+  }
+  .ul a.item.floor {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
   }
   .li__img {
     width: 0%;
@@ -1014,7 +1070,7 @@ header {
   }
   .li a span {
     width: 95%;
-    font-size: 45px;
+    font-size: 35px;
     padding: 0px 0px;
   }
 }
@@ -1358,6 +1414,7 @@ section video {
   }
 }
 .main-materialsWrapper {
+  border: 3px solid red;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 5px;
@@ -1428,6 +1485,7 @@ section video {
       -ms-flex-align: center;
           align-items: center;
   gap: 3%;
+  border: 1px solid #409bd8;
 }
 
 .main-materials-block h4 {
@@ -1466,6 +1524,7 @@ section video {
   font-size: 14px;
   color: #fff;
   margin: 5px 0 5px 0;
+  border: 1px solid #409bd8;
 }
 
 .materials-block li h5 {
@@ -1569,12 +1628,12 @@ section video {
       flex-wrap: wrap;
   padding: 5px;
   margin: 100px 0 0 0;
-  gap: 15px;
 }
 
 .main-accessories-block h2 {
   width: 90%;
   margin: 0 0 50px 0;
+  border: 3px solid #409bd8;
 }
 
 .main-accessories-block__h2 {
@@ -1629,6 +1688,7 @@ section video {
       -ms-flex-align: center;
           align-items: center;
   gap: 3%;
+  border: 1px solid #409bd8;
 }
 
 .main-accessories-block h4 {
@@ -1673,6 +1733,7 @@ section video {
   font-size: 14px;
   color: #fff;
   margin: 5px 0 5px 0;
+  border: 1px solid #409bd8;
 }
 
 .accessories-block li h5 {

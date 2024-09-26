@@ -52,6 +52,7 @@ let close211 = document.querySelector('.close211');
 let close212 = document.querySelector('.close212');
 let close213 = document.querySelector('.close213');
 let close214 = document.querySelector('.close214');
+let close214_2 = document.querySelector('.close214_2');
 let close215 = document.querySelector('.close215');
 let close216 = document.querySelector('.close216');
 let close217 = document.querySelector('.close217');
@@ -229,6 +230,10 @@ close214.onclick = function(){
 	navigation.classList.toggle('is-open');
 	hamburger.classList.toggle('is-open');
 }
+close214_2.onclick = function(){
+	navigation.classList.toggle('is-open');
+	hamburger.classList.toggle('is-open');
+}
 close215.onclick = function(){
 	navigation.classList.toggle('is-open');
 	hamburger.classList.toggle('is-open');
@@ -305,14 +310,25 @@ window.addEventListener('scroll', function(){
 
 
 
+// $(document).ready(function() {
+//     $('.block__title').click(function(event) {
+//      if($('.block').hasClass('one')){
+//          $('.block__title').not($(this)).removeClass('active');
+//          $('.block__text').not($(this).next()).slideUp(300);
+//      }
+//      $(this).toggleClass('active').next().slideToggle(300);
+//  });
+ 
+//  });
+ 
+
 $(document).ready(function() {
     $('.block__title').click(function(event) {
      if($('.block').hasClass('one')){
-         $('.block__title').not($(this)).removeClass('active');
+         $('.block__title').not($(this)).removeClass('active_ASD');
          $('.block__text').not($(this).next()).slideUp(300);
      }
-     $(this).toggleClass('active').next().slideToggle(300);
+     $(this).toggleClass('active_ASD').next().slideToggle(300);
  });
  
  });
- 
